@@ -1,8 +1,8 @@
 {
   "name": "nuxtjs",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
+  "description": "Simple video call using nuxtjs and jitsi",
+  "author": "Ken",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "core-js": "^3.15.0",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "postcss": "^8.3.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.3.1"
+  }
 }
